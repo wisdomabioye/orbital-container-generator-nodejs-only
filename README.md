@@ -7,9 +7,8 @@ A TypeScript library and CLI tool for generating WebAssembly (WASM) container fi
 ## Features
 
 - Generate WASM containers from any file type
-- Support for both browser and Node.js environments
+- Support Node.js environments only!
 - Customizable WebAssembly template
-- Command-line interface for easy integration into workflows
 - Proper handling of both relative and absolute file paths
 - Automatic creation of output directories
 
