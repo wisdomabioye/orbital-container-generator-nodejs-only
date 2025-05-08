@@ -1,0 +1,20 @@
+{
+  "name": "orbital-container-generator-nodejs-only",
+  "version": "1.0.0",
+  "description": "Orbital container generator for Nodejs only",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node dist/cli.js generate",
+    "build": "tsc"
+  },
+  "author": "wisdomabioye",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "wabt": "^1.0.37"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.16",
+    "typescript": "^5.8.3"
+  }
+}
